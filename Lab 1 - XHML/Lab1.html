@@ -1,0 +1,56 @@
+<?xml version="1.0">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmls="http:/www.w3.org/1999/xhtml">
+    <head>
+        <title>ECE 3553 | Lab 1 - XHTML</title>
+        <meta charset="UTF-8"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+        <link rel="icon" type="image/x-icon" href="../ShinyL Rotom.png">
+        <link rel="stylesheet" href="../mainCSS.css">
+		
+    </head>
+
+    <body>
+        <h1>ECE 3553 | Multifarious Systems</h1>
+        <h4>Landon Schreck</h4>
+        <h4><a href="../index.html">Return to Navigation Page</a></h4>
+        <h2>Lab 1: XHTML</h2>
+        <a href="https://www.w3schools.com/html/html_xhtml.asp#:~:text=What%20is%20XHTML%3F,supported%20by%20all%20major%20browsers">What is XHTML?</a>
+        
+        <form>
+            <label>First Name</label>
+            <input name="firstname" type="text" /> <br />
+            <label>Last Name</label>
+            <input name="lastname" type="text" /> <br />
+
+            <label>Year:</label> <br />
+            <input name="year" id="freshman" type="radio" value="Freshman" />
+            <label for="freshman">Freshman</label> <br />
+            <input name="year" id="sophmore" type="radio" value="Sophmore" />
+            <label for="sophmore">Sophmore</label> <br />
+            <input name="year" id="junior" type="radio" value="Junior" />
+            <label for="junior">Junior</label> <br />
+            <input name="year" id="senior" type="radio" value="Senior" />
+            <label for="senior">Senior</label> <br/>
+
+            <label for="major">Major:</label> <br/>
+            <select name="major" id="major">
+                <option value="ee">Electrical Engineering</option>
+                <option value="ce">Computer Engineering</option>
+                <option value="ece">Electrical and Computer Engineering</option> 
+                <option value="se">Software Engineering</option>
+                <option value="cs">Computer Science</option>
+            </select> <br/>
+
+            <input type="checkbox" id="enjoys_programming" value="yes" />
+            <label>I enjoy programming</label> <br/>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+
+        </form>
+
+    </body>
+    
+</html>

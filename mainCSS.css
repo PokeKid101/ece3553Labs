@@ -1,0 +1,46 @@
+body{
+    background-color: beige;
+    color: black;
+    font-family: "Comic Sans MS", "Comic Sans", serif;
+}
+header{
+    margin: 0 0 0 0;
+}
+table{
+    border-style: dashed;
+    border-color: lightgray;
+    border-width: 1px;
+    margin: 0 auto 0 auto;
+}
+th{
+    padding: 0 10px;
+    text-align: center;
+}
+td{
+    padding: 0 10px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+image{
+    width: 200px;
+    height: 400px;
+}
+
+.main_Page{
+    font-family: "Times New Roman", serif;
+}
+.headerText{
+    margin: 0 0 0 0;
+}
+#headerSpacing{
+    margin-bottom: 10px;
+}
+#navHeader{
+    margin-bottom: 0;
+    text-align: center;
+}

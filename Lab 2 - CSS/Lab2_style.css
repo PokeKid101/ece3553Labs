@@ -1,0 +1,40 @@
+body {
+    background-image: url("image1.jpg");
+    background-color: beige;
+    color: white;
+}
+h1 {
+    font: "Arial", serif;
+    align-content: center;
+    color: blue;
+}
+h3 {
+    font: "Times", serif;
+    align-content: left;
+    color: red;
+    text-decoration: underline;
+}
+h4{
+    font-family: "Comic Sans MS", "Comic Sans", serif;
+}
+p {
+    font: "Courier", serif;
+    text-indent: 20px;
+    color: black;
+}
+ol{
+    font: "lowercase roman letters", serif;
+    font-size: 14px;
+    color: black;
+}
+a{
+    color: blue;
+    
+}
+a:hover{
+    background-color: green;
+}
+form{
+    background-color: lightgray;
+    color: black;
+}
