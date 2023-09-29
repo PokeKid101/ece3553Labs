@@ -1,0 +1,78 @@
+
+<html>
+    <head>
+        <title>ECE 3553 | Lab 4 - JavaScript</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/x-icon" href="../ShinyL Rotom.png">
+        <link rel="stylesheet" href="../mainCSS.css">
+        <link rel="stylesheet" href="Lab4_style.css">
+        
+    </head>
+    <body>
+        <header>
+            <h1>ECE 3553 | Multifarious Systems</h1>
+            <h4 style="font-family:'Times New Roman';">Landon Schreck</h4>
+            <h4><a href="../index.html">Return to Navigation Page</a></h4>
+            <h2>Lab 4: JavaScript</h2>
+        
+        </header>
+        
+        <div id="main_Page">
+            
+            <h2 id="title">GPA Calculator</h2>
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Credits</th>
+                    <th>Grade</th>
+                    
+                </tr>
+                <tr>
+                    <td>Calculus 3</td>
+                    <td><input class="credits" type="text" /></td>
+                    <td><input class="grades" type="text" /></td>
+                    
+                </tr>
+                <tr>
+                    <td>Modern Physics</td>
+                    <td><input class="credits" type="text" /></td>
+                    <td><input class="grades" type="text" /></td>
+                    
+                </tr>
+                <tr>
+                    <td>Soft/Hardware Integration</td>
+                    <td><input class="credits" type="text" /></td>
+                    <td><input class="grades" type="text" /></td>
+                    
+                </tr>
+                <tr>
+                    <td>Circuit Theory 2</td>
+                    <td><input class="credits" type="text" /></td>
+                    <td><input class="grades" type="text" /></td>
+                    
+                </tr>
+                <tr>
+                    <td>Signals and Systems</td>
+                    <td><input class="credits" type="text" /></td>
+                    <td><input class="grades" type="text" /></td>
+                    
+                </tr>
+                
+            </table>
+            
+            <center>
+                <label>GPA: </label>
+                <label id="output">0.00</label>
+                <br/>
+
+                <button onclick="calcGPA()">Calculate</button>
+                <button onclick="clearCalc()">Clear</button>
+            </center>
+                
+        </div>
+        
+        <script src="Lab4.js"></script>
+        
+    </body>
+</html>

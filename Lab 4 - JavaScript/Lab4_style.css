@@ -1,0 +1,25 @@
+html{
+    background-color: #cceeff;
+    
+}
+table{
+    background-color: snow;
+    color: black;
+    font-size: 115%;
+}
+tr.tableHeader{
+    border-style: none none solid none;
+    border-color: black;
+    background-color: lightgreen;
+}
+#title{
+    font-size: 200%;
+    text-align: center;
+}
+label, button{
+    font-size: 150%;
+    text-align: center;
+}
+#tableBottom{
+    align-content: center;
+}
