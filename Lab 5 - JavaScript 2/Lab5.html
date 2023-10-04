@@ -1,0 +1,67 @@
+
+<html>
+    <head>
+        <title>ECE 3553 | Lab 5 - JavaScript 2</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/x-icon" href="../ShinyL Rotom.png">
+        <link rel="stylesheet" href="../mainCSS.css">
+        <link rel="stylesheet" href="Lab5.css">
+        
+    </head>
+    <body>
+        <header>
+            <h1>ECE 3553 | Multifarious Systems</h1>
+            <h4 style="font-family:'Times New Roman';">Landon Schreck</h4>
+            <h4><a href="../index.html">Return to Navigation Page</a></h4>
+            <h2>Lab 5: JavaScript 2</h2>
+        
+        </header>
+        
+        <div id="main_Page">
+            
+            
+            <table>
+                <tr>
+                    <td colspan="5"><input id="calculatorScreen" type="text" /></td>
+                </tr>                
+                <tr>
+                    <td><button class="calcButton" onclick="updateCalc(1)">1</button></td>
+                    <td><button class="calcButton" onclick="updateCalc(2)">2</button></td>
+                    <td><button class="calcButton" onclick="updateCalc(3)">3</button></td>
+                    <td><button class="calcButton" onclick="updateCalc('+')">+</button></td>
+                    <td><button class="calcButton" onclick="updateCalc('del')">Del</button></td>
+                    
+                </tr>
+                <tr>
+                    <td><button class="calcButton" onclick="updateCalc(4)">4</button></td>
+                    <td><button class="calcButton" onclick="updateCalc(5)">5</button></td>
+                    <td><button class="calcButton" onclick="updateCalc(6)">6</button></td>
+                    <td><button class="calcButton" onclick="updateCalc('-')">-</button></td>
+                    <td><button class="calcButton" onclick="updateCalc('clear')">clear</button></td>
+                    
+                </tr>
+                <tr>
+                    <td><button class="calcButton" onclick="updateCalc(7)">7</button></td>
+                    <td><button class="calcButton" onclick="updateCalc(8)">8</button></td>
+                    <td><button class="calcButton" onclick="updateCalc(9)">9</button></td>
+                    <td><button class="calcButton" onclick="updateCalc('*')">*</button></td>
+                    <td><button class="calcButton" onclick="updateCalc('!')">!</button></td>
+                    
+                </tr>
+                <tr>
+                    <td><button class="calcButton" onclick="updateCalc('.')">.</button></td>
+                    <td><button class="calcButton" onclick="updateCalc(0)">0</button></td>
+                    <td><button class="calcButton" onclick="updateCalc('pi')">Pi</button></td>
+                    <td><button class="calcButton" onclick="updateCalc('/')">/</button></td>
+                    <td><button class="calcButton" onclick="updateCalc('=')">=</button></td>
+                    
+                </tr>
+                
+            </table>
+            
+        </div>    
+            
+        <script src="Lab5.js"></script>        
+    </body>
+</html>
